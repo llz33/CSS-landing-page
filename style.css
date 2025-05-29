@@ -1,22 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:ital,wght@0,700;1,700&display=swap');
+
 body{
     margin: 0;
 }
 .hero-content{
-    background-image: url(./assets/background.png);
-    background-size: cover;
     margin: 0;
     display: flex;
     height: 500px;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 225px;
-    box-shadow: 0 0px 30px 20px #000;
-    position: relative;
-    z-index: 10;
+    padding: 10px 235px;
+    background-color: #d6d6d6;
 }
 
 .content-left{
-    color: #fff;
+    color: #1d1d1d;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -28,44 +26,182 @@ body{
     font-size: 28px;
     font-weight: 800;
     align-self: flex-end;
+    font-family: "IBM Plex Sans", Arial, sans-serif;
 }
 
 .reserve{
     border-radius: 12px;
     padding: 1em;
-    color: #eaeaea;
-    background: none;
-    box-shadow: 0 0 8px 2px #936e008d;
-    border: solid #936e008d;
+    color: #1d1d1d;
+    background: #ededed;
+    border: solid;
     transition: all ease-in-out 1s;
 }
 
+.cta{
+    font-family: "IBM Plex Mono";
+}
+
 .reserve:hover{
-    box-shadow: 0 0 8px 2px #FFBF00;
-    border: solid #FFBF00;
+    box-shadow: 0 0 8px 2px #3C6E71;
+    border: solid #3C6E71;
     transition: all ease-in-out 1s;
     cursor: pointer;
 }
 
 
-
 .header {
     display: flex;
-    background-color: #000;
-    color: #FFF;
+    background-color: #d6d6d6;
+    color: #1d1d1d;
     justify-content: space-between;
     padding: .5em;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0px 10px 5px #000;
-    position: relative;
-    z-index: 20;
 }
 
 ul, a{
     display: flex;
     list-style: none;
     text-decoration: none;
-    color: #eee;
+    color: #1d1d1d;
     gap: 2em;
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+
+
+}
+.about-top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    font-size: 24px;
+}
+
+.about-bottom{
+    display: flex;
+    align-items: flex-start;
+    gap: 4em;
+}
+.descriptor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+.image-container{
+    border: solid #3C6E71;
+    border-radius: 8px;
+    height: 150px;
+    width: 145px;
+}
+
+.image-descriptor{
+    width: 190px;
+    text-align: center;
+    font-family: "IBM Plex Mono", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.quote{
+    background-color: #d6d6d6;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.quote-body{
+    font-family: "IBM Plex Mono", sans-serif;
+    font-style: italic;
+    font-size: 32px;
+    width: 50%;
+}
+
+.quotee{
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    font-size:18px;
+    width: 80%;
+    text-align: right;
+}
+
+.sign-up{
+    height: 300px;
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container{
+    display: flex;
+    background-color: #3C6E71;
+    border: solid #3C6E71;
+    border-radius: 8px;
+    width: 65%;
+    height: 45%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4em;
+}
+
+.sign-up-left{
+    color: #ededed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4em;
+}
+
+.sign-up-title{
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    font-size: 32px;
+}
+
+.sign-up-text{
+    font-family: "IBM Plex Mono", Arial, sans-serif;
+}
+
+
+.sign-up-button{
+    height: 50px;
+    width: 80px;
+    background: none;
+    border: solid #ededed;
+    border-radius: 8px;
+    color: #ededed;
+    transition: all ease-in-out 1s;
+}
+
+.sign-up-button:hover{
+    transition: all ease-in-out 1s;
+    box-shadow: 0 0 8px 2px #ededed;
+    border: solid #ededed;
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6d6d6;
+    height: 40px;
 }
