@@ -1,5 +1,7 @@
 My first actual landing page!
 
+https://llz33.github.io/CSS-landing-page/
+
 I am curently learning programming, and following The Odin Project
 to get started. This is the end of the purley HTML/CSS foundational
 part of the course before I move on to JavaScript.
